@@ -1,9 +1,54 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "sites": {
+  "links": [
+    {
+      "rel": "saq-apply",
+      "href": "https://sedexadvance.sedexonline.com/org/api/orgs/ZC1071772/saq/appliedSites/ZS3934697"
+    },
+    {
+      "rel": "workers",
+      "href": "https://sedexadvance.sedexonline.com/org/api/orgs/ZC1071772/sites/ZS3934697/workers"
+    },
+    {
+      "rel": "upload-audit",
+      "href": "https://sedexadvance.sedexonline.com/audit/api/audits/intents/upload-audits"
+    },
+    {
+      "rel": "view-saq",
+      "href": "http://sedexadvance.sedexonline.com/saq/org/ZC1071772/site/ZS3934697"
+    },
+    {
+      "rel": "edit-site",
+      "href": "https://sedexadvance.sedexonline.com/org/api/orgs/ZC1071772/sites/ZS3934697"
+    }
   ],
+  "content": {
+    "code": "ZS3934697",
+    "siteName": "Service Provider",
+    "organisationName": "_Sedex*Test_Chinese company for sunny",
+    "hasPurchasedItems": false,
+    "modifiedOn": null,
+    "countryCode": null,
+    "functions": [
+      "SF000000000006"
+    ],
+    "sectorProfiles": [
+      "SERVPROV"
+    ],
+    "address": {
+      "addressLine1": "sfgh",
+      "addressLine2": null,
+      "city": "sfgh",
+      "countryCode": "AO",
+      "postCode": "5624"
+    },
+    "productAreas": [
+      "53101800",
+      "50201700"
+    ],
+    "parentOrgStatus": "ACTIVE"
+  }
+},
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
